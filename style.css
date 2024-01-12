@@ -1,4 +1,66 @@
-*{
+/* Não consegui fazer o exercício de fixação */
+
+* {
     margin: 0;
     padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    border: solid 1px black;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#texto {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+    height: 400px;
+}
+
+section article {
+    width: 30px;
+    padding: 10px;
+}
+
+#esquerda {
+    background-color: antiquewhite;
+    flex-grow: 2;
+}
+
+#principal {
+    background-color: lightblue;
+    flex-grow: 8;
+}
+
+#direita {
+    background-color: lightcoral;
+    flex-grow: 1;
+}
+
+.imagem {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+div {
+    width: 160px;
+    height: 270px;
+    border: solid black 1px;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    border: solid 1px black;
+    background-color: lightgray;
+    height: 50px;
+    padding: 10px;
 }
